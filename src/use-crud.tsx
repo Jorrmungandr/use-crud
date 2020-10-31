@@ -37,7 +37,7 @@ function useCrud(url: string) {
         return res.data;
       }
       return item;
-    }))
+    }));
   };
 
   return {
